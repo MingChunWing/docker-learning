@@ -1,0 +1,23 @@
+{
+  "name": "docker-learning",
+  "version": "1.0.0",
+  "description": "Simple Node.js RESTful Hello World API with Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
